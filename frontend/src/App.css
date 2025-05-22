@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.summary {
+  margin-bottom: 20px;
+}
+
+.controls > * {
+  margin-right: 10px;
+}
+
+.products button {
+  margin: 5px;
+  padding: 10px;
+}
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  position: relative;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+body {
+  background: #f6f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dashboard-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  padding: 18px 10px 10px 10px;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dashboard-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.dashboard-date-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dashboard-date-input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 1em;
+}
+
+.dashboard-date-icon {
+  font-size: 1.5em;
+}
+
+.dashboard-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.dashboard-section {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+}
+
+.dashboard-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.dashboard-btn {
+  background: #fff;
+  border: 2px solid #007bff;
+  color: #007bff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 4px 14px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.dashboard-btn:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.dashboard-last-transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dashboard-transaction-card {
+  background: #fff;
+  border: 1px solid #dbeafe;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font-size: 1em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.dashboard-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.dashboard-product-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 9px;
+  padding: 8px 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s, border 0.15s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+.dashboard-product-card:hover {
+  border: 1.5px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.12);
+}
+
+.dashboard-product-icon {
+  font-size: 2em;
+  margin-bottom: 2px;
+}
+.dashboard-product-name {
+  font-weight: 600;
+  font-size: 1em;
+}
+.dashboard-product-price {
+  color: #007bff;
+  font-size: 0.95em;
+}
+.dashboard-product-qty {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.dashboard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f4f6;
+  border-radius: 9px;
+  padding: 10px 12px;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.dashboard-profit {
+  color: #15803d;
+}
+.dashboard-expense {
+  color: #be123c;
+}

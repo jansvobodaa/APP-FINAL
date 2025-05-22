@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4967ad5b-8099-4ac7-83c3-e122fc752ec8",
+    "note": "sale",
+    "timestamp": "2025-05-18T19:01:04.010Z",
+    "items": [
+      {
+        "productId": "2",
+        "amount": -30,
+        "type": "sale"
+      }
+    ]
+  },
+  {
+    "id": "c2b27b88-e185-4b1e-99bc-23e9559b1656",
+    "note": "item restock",
+    "timestamp": "2025-05-18T19:14:57.073Z",
+    "items": [
+      {
+        "productId": "2",
+        "amount": 1000,
+        "type": "restock"
+      }
+    ]
+  },
+  {
+    "id": "f9d41e61-8ce4-47ca-8715-700b80a35fb9",
+    "note": "sale",
+    "timestamp": "2025-05-18T19:15:29.058Z",
+    "items": [
+      {
+        "productId": "2",
+        "amount": -10,
+        "type": "sale"
+      }
+    ]
+  },
+  {
+    "id": "fdf75507-9a17-4e06-9c09-7d976ffc50c0",
+    "note": "inhouse sale",
+    "timestamp": "2025-05-18T19:38:23.286Z",
+    "items": [
+      {
+        "productId": "1747596111918",
+        "amount": -200,
+        "type": "sale"
+      }
+    ]
+  },
+  {
+    "id": "e1d59284-513c-4e7f-a0c8-8e94a9187246",
+    "note": "sale",
+    "timestamp": "2025-05-18T19:45:53.109Z",
+    "items": [
+      {
+        "productId": "1747597457316",
+        "amount": -20,
+        "type": "sale"
+      }
+    ]
+  }
+]

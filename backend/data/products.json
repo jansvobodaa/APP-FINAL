@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2",
+    "name": "Earl Grey",
+    "quantity": 1040,
+    "price": 64.9,
+    "notes": [],
+    "note": ""
+  },
+  {
+    "id": "1747596111918",
+    "name": "Moonbeam voyager - Puerh",
+    "price": 200,
+    "quantity": 1105,
+    "note": ""
+  },
+  {
+    "id": "1747597457316",
+    "name": "Bodega Spectator",
+    "price": 379,
+    "quantity": 280,
+    "note": ""
+  }
+]
